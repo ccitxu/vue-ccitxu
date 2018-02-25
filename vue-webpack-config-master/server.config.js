@@ -3,7 +3,7 @@
  */
 const constants = require('./constants')
 const common = 'test'
-module.exports = {
+module.exports = {   
   appPort: 9009,
   proxy: {
     '/api/test': constants.loginTargets[common],
