@@ -10,7 +10,6 @@
 * Babel Es6/7
 * Eslint
 * stylus postcss
-
 ```html
 $ npm i 安装npm包
 $ npm start 启动项目
@@ -256,3 +255,7 @@ pkill node   //关闭 node 服务
 
 
 继续完善....
+### 修改了.gitignore文件 需要删除缓存重新添加
+* git rm -r --cached .
+* git add .
+* git commit -m "update gitignore"
